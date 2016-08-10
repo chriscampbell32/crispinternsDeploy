@@ -14,9 +14,7 @@
   <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-        
+        <![endif]-->     
     <header>
       <div id="wrapperHeader">
         <div id="header">
@@ -27,25 +25,32 @@
 
     <main class="main">
         <!--Mobile section-->
-      <div class="container__videos-mobile">     
-        <div class="videos-mobile">
-          <iframe id="video1" src="https://www.youtube.com/embed/f890SC1schE"></iframe>
-        </div>
-        <div class="videos-mobile">
-          <iframe id="video2" src="https://www.youtube.com/embed/sZabPqQ-hM0"></iframe>
-        </div>
-        <div class="videos-mobile">
-          <iframe id="video3" src="https://www.youtube.com/embed/65KauyA8Uc4"></iframe>
-        </div>
-        <div class="videos-mobile">
-          <iframe id="video4" src="https://www.youtube.com/embed/zZOwCDBABLk"></iframe>
-        </div>
-        <div class="videos-mobile">
-          <iframe id="video5" src="https://www.youtube.com/embed/en3NklM-0os"></iframe>
-        </div>
+      <div class="container__videos-mobile">
+
+      <div class="youtube" data-embed="QFCSXr6qnv4">
+          <div class="play-button"></div>  
       </div>
+      
+      <div class="youtube" data-embed="sZabPqQ-hM0"> 
+          <div class="play-button"></div> 
+      </div>
+
+      <div class="youtube" data-embed="65KauyA8Uc4"> 
+          <div class="play-button"></div> 
+      </div>
+
+      <div class="youtube" data-embed="zZOwCDBABLk"> 
+          <div class="play-button"></div> 
+      </div>
+
+      <div class="youtube" data-embed="en3NklM-0os"> 
+          <div class="play-button"></div> 
+      </div>
+    </div>
+       
+
           <!-- large size tv section -->
-      <div class="container__videos-large">
+    <div class="container__videos-large">
         <div class="wrapper__videos-large">
           <div class="video-gallery-large">
             <iframe name="videoFrame-large" id="videoFrame-large" frameborder="0" src="images/GES_V03.mp4"></iframe>
@@ -71,14 +76,14 @@
             <div id="bottom-tv-large"></div>
           </div>
         </div> 
-      </div>
-
-    </main>
+    </div>
+   </main>
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/youtubeSmall.js"></script>
         <!-- <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script> -->
         <!-- <script src="/_assets/plugins.js"></script>
         <script src="/_assets/js/main.js"></script> -->
         
-    </body>
+  </body>
 </html>
